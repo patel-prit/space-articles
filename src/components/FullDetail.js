@@ -17,7 +17,7 @@ function FullDetail() {
       setLoading(false);
     };
     fetchPost();
-  }, []);
+  });
   console.log(post);
   return (
     <div className="full-detail">

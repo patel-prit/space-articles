@@ -30,16 +30,13 @@ function Report() {
     <div className="report mt-5">
       <h2 className="text-primary mb-3 text-center">Reports on Space Flight</h2>
       <div className="drop-down-for-post">
-        <label className="my-1 mr-2 label-size" for="postPerPage">
-          Preference
-        </label>
+        <label className="my-1 mr-2 label-size">Preference</label>
         <select
           defaultValue={postPerPage}
           onChange={handlePostPerPageChange}
           className="custom-select my-1 mr-sm-2"
-          id="postPerPage"
         >
-          <option selected value={5}>
+          <option defaultValue value={5}>
             5
           </option>
           <option value="10">10</option>
