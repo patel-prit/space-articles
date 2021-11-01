@@ -1,8 +1,13 @@
 .drop-down-for-post {
-  display: flex;
-  width: 12rem;
-  float: right;
+  display: block;
+  width: 100%;
+
+  /* width: 12rem;
+  float: right; */
 }
 .label-size {
   font-size: 1.5rem;
+}
+.custom-select {
+  width: 5rem;
 }

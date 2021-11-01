@@ -7,7 +7,6 @@ body {
   border-bottom: 1px solid lightblue;
 }
 .post-image {
-  height: 15rem;
   width: 15rem;
 }
 .post-container-detail {
@@ -15,4 +14,14 @@ body {
 }
 .post-container-detail a {
   text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .post-container {
+    flex-direction: column;
+  }
+  .post-image {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
 }

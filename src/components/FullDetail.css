@@ -1,18 +1,24 @@
 .full-detail-container {
   background-color: lightblue;
-  margin: 12rem;
+  display: block;
+  margin: auto;
   margin-top: 5rem;
   box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
-  height: 43rem;
   border-radius: 20px;
+  width: 70%;
 }
 .full-detail-image {
   width: 20rem;
   height: 20rem;
-  padding-top: 3rem;
+  padding: 3rem;
 }
 .post-details-container {
   text-align: center;
   margin-top: 2rem;
   padding: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .full-detail-container {
+    width: 95%;
+  }
 }

@@ -1,5 +1,4 @@
 .navbar {
-  display: flex;
   align-items: center;
   width: 100%;
   margin: 0 auto;
@@ -16,6 +15,7 @@
 .navbar .links {
   margin-left: auto;
   padding-right: 1rem;
+  float: right;
 }
 .navbar a {
   margin-left: 16px;
