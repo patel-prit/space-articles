@@ -1,0 +1,18 @@
+.full-detail-container {
+  background-color: lightblue;
+  margin: 12rem;
+  margin-top: 5rem;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+  height: 43rem;
+  border-radius: 20px;
+}
+.full-detail-image {
+  width: 20rem;
+  height: 20rem;
+  padding-top: 3rem;
+}
+.post-details-container {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}

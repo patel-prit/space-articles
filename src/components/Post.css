@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(233, 237, 237);
+}
+.post-container {
+  margin: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightblue;
+}
+.post-image {
+  height: 15rem;
+  width: 15rem;
+}
+.post-container-detail {
+  margin-left: 2rem;
+}
+.post-container-detail a {
+  text-decoration: none;
+}
